@@ -1,5 +1,5 @@
 let randomNumber = Math.floor(Math.random() * 10) + 1; // Generate random number between 1 and 100
-let remainingGuesses = 3; // Number of allowed guesses
+let remainingGuesses = 5; // Number of allowed guesses
 
 const guessInput = document.getElementById("guessInput");
 const submitButton = document.getElementById("submitButton");
